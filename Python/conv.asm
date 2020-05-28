@@ -2,9 +2,9 @@
 
 section .data
     newline db 10,0
-    picDir db "mybin.txt", 0
-    kerDir db "kernel.txt", 0
-    outfile db "res.txt", 0
+    picDir db "mybin.bin", 0
+    kerDir db "kernel.bin", 0
+    outfile db "res.bin", 0
     contents db '-updated-', 0h
 
 section .bss
